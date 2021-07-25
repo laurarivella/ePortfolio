@@ -84,25 +84,7 @@
 											</div>
 									                <p>For this exercise we had to scan against our assigned website using Kali Linux and answer some questions regarding open ports, the OS, protection, known vulnerabilities and so on. 
 											All and all this has been a solid exercise to carry out as a team, albeit a bit more time consuming than what we would have liked considering the rest of the coursework to do. 
-											We had to post our results in the Module Wiki and it is as follows:
-											“Our scanning workstation was a virtual machine of Kali Linux 5.10. We performed TCP and UDP scan, and nothing much was picked up on the UDP scan; most of the result came from the TCP scan. After the scan, we have converted the result to HTML format for a simpler view, and they are attached below.
-											What Operating System does the website utilise? 
-											-       Our scan had an 88% match of Linux 4.2 as the Operating system.
-											What web server software is it running? 
-											-       Apache
-											Is it running a CMS (WordPress, Drupal, etc.?) 
-											-       Our scan did not show they are running any CMS. 
-											What protection does it have (CDN, Proxy, Firewall?) 
-											-       Our scan shows they are using a firewall to filter the ports. We also used a tool called WAFW00F v2.1, and this is a Web Application Firewall Fingerprinting toolkit that did not detect anything.
-											Where is it hosted? 
-											-       Our scan detected hosting provider is Amazon Data services UK, and the carrier of the IP is Amazon.com, inc. Further scan on the IP revealed the geolocation, and we tracked that location in the London EC1M area, latitude 51.51222.
-											Does it have any open ports? 
-											-       Our scan identified two open ports as Port 80 HTTP and Port 22 SSH.
-											Does the site have any known vulnerabilities? 
-											-       According to the CVE library, there are three known vulnerabilities for the version of OpenSSH 7.4 in use, and they are CVE-2016-10708, CVE-2016-10011, CVE-2016-10010. However, our scan did not detect these as significant vulnerabilities, as they have a CVSS score below 7.0.
-											What versions of software is it using? Are these patched so that they are up to date?
-											-       For port 22, it is using OpenSSH version 7.4 protocol 2.0. However current version (as of 19th April 2021), the OpenSSH is 8.6.”
-											
+																						
 											<img src="OSdetection.PNG”>
 											 <img src="OpenPort.PNG”>
 											    </p>
@@ -112,17 +94,6 @@
 									                <p>For this team activity we had to read a few reviews of available PenTesting tools and evaluate them.
 											One article by Leroux (2020) concerned Kali Linux and the other by Bhatt (2018) was a study paper on Kali as well. 
 <br>
-											We had to answer the following questions:
-											<ul>
-											  <li> What does the article teach you about carrying out vulnerability scans using Kali?</li>
-											  <li> What issues might you encounter?</li>
-											  <li> How would you overcome them?</li>
-											  <li> How do their results compare with your initial evaluation? </li>
-
-											  <li> What do you think of their criteria?</li>
-											  <li> What are the pros and cons of using Kali Linux vs. Nessus?</li>
-											  <li> Has this changed your original evaluation score?</li>
-											</ul>
 <br>
 											My team’s answers and thoughts are presented below. Shiraj, having a lot of experience, has definitely guided us through some of the answers. However, we purposely answered them separately before reviewing the answers together so that we all had a chance to do research on our own without relying too much on Shiraj. 
 
@@ -145,18 +116,7 @@
 												The Case was a 2017 one called “Failure by the Department of Justice and Equality to impose the correct access restrictions on access to medical data of an employee”. In this instance of GDPR violation, the sensitive medical data of an employee were visible and could be accessed by approximately 80 staff members from the Department. The line manager omitted to restrict access and therefore violated GDPR. This case was relevant because it dealt with the poor management of a database and therefore was a great point to build on the knowledge we got form the first module of the Masters. 
 												<br>
 
-												This was argued more in Discussion forum 3 and during the seminar. We were asked to elaborate on three questions:
-												<ul>
-												  <li> What is the specific aspect of GDPR that your case study addresses?</li>
-												  <li> How was it resolved?</li>
-												  <li> If this was your organisation what steps would you take as an Information Security Manager to mitigate the issue?</li>
-												</ul>
-												Below is how we dealt with it in the Discussion Forum:
-												“We believe this to be a relevant case to our field of study since it has to do with the disclosure of sensitive personal data through a failure to apply proper permissions in a database. Additionally, the complainant’s sensitive personal data was processed without the required consent or another valid legal basis for doing so. (Data Protection Commission, 2017)
-												The specific GDPR aspect addressed is the unauthorized disclosure of sensitive personal data to third parties. In particular, we can refer to article 4, 5, 12, 13, 32. (European Parliament & European Council, 2016)
-												After the complainant declined an amicable resolution offer by the Department, which consisted of an apology and removal of the document from the database, the case escalated to a formal decision by the Commissioner.
-												More than any other aspect relating to Information Security Management, the mitigation for this sort of issue should come in the form of regular audits and reviews of the databases to address the presence of confidential information and assess permissions. Furthermore, an adequate system of training for staff managers should be implemented to educate them on data protection.”
-												</p>
+																							</p>
 	
 								<p><u>Unit 10 - Data Breach Case Study</u></p>
 											</div>
@@ -164,9 +124,7 @@
 <br>
 											On the surface it looks like any other data breach case study in which users’ personal data were stolen, however it does have more interesting elements. We’ll never know the full story since Sony essentially shut down any information on this, including whether the ICO was notified, whether or not they had a business continuity plan and how much data was actually stolen. 
 <br>
-											Educated guesses led us to believe that they did notify the ICO, since they got fined for their lack of security, and that a good deal of personal data was stolen, including perhaps credit card details. It’s worth noting that Sony gave 10-20 euros back to players to spend in the PSN Store, I was among the many who got this money and it made me glad I’ve always used a pre-paid card for my online purchases, even when I was in my teens. 
-
-											The PSN hack is a great case study for a few reasons:
+																						The PSN hack is a great case study for a few reasons:
 											<ul>
 											  <li>It happened right at the beginning of online services and digital purchases becoming relevant</li>
 											  <li>The attackers used a DDoS attack to create a diversion and then proceeded to compromise the machine of a SysAdmin while everyone was focused on the DDoS attack</li>
